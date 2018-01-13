@@ -44,6 +44,8 @@ volumes:[
             println "DEBUG: env.GIT_COMMIT_ID ==> ${env.GIT_COMMIT_ID}"
             println "DEBUG: env.GIT_SHA ==> ${env.GIT_SHA}"
             println "DEBUG: env.GIT_BRANCH ==> ${env.GIT_BRANCH}"
+            println "DEBUG: env.GIT_LOCAL_BRANCH ==> ${env.GIT_LOCAL_BRANCH}"
+            println "DEBUG: env.BRANCH_NAME ==> ${env.BRANCH_NAME}"
             println "DEBUG: env.JOB_NAME ==> ${env.JOB_NAME}"
             println "DEBUG: env.BUILD_NUMBER ==> ${env.BUILD_NUMBER}"
             println "DEBUG: appVersion ==> " + appVersion
