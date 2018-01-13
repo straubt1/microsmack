@@ -19,9 +19,9 @@ volumes:[
 
             // configuration parameters and variables for pipeline
             // def pwd = pwd()
-            def repo = "chzbrgr71"
+            def repo = "straubt1"
             def appMajorVersion = "1.0"
-            def acrServer = "briar123.azurecr.io"
+            def acrServer = "tstraubk8shackfest.azurecr.io"
             def acrJenkinsCreds = "acr_creds" //this is set in Jenkins global credentials
             sh 'git rev-parse HEAD > git_commit_id.txt'
             try {
